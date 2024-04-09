@@ -1,0 +1,26 @@
+{
+  "name": "astralfn",
+  "version": "1.0.0",
+  "description": "Description de votre application",
+  "author": "Votre nom",
+  "main": "main.js",
+  "productName": "AstralFn",
+  "build": {
+    "appId": "com.example.astralfn",
+    "win": {
+      
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7"
+  }
+}
+
+
