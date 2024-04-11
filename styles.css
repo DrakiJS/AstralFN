@@ -1,0 +1,84 @@
+body {
+    background-color: #202124; 
+    color: #ffffff; 
+}
+
+.window {
+    width: 300px;
+    border: 1px solid #ffffff; 
+    border-radius: 5px;
+    background-color: #2d2d2d; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-bar {
+    background-color: #2d2d2d; 
+    color: #ffffff; 
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+}
+
+.title-bar .title {
+    -webkit-app-region: drag;
+}
+
+.title-bar .controls {
+    -webkit-app-region: no-drag;
+}
+
+.title-bar .controls span {
+    display: none;
+}
+
+.title-bar .controls span {
+    visibility: hidden;
+}
+
+#launchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 50px; 
+    font-size: 16px; 
+    color: #ffffff; 
+    background-color: #000000; 
+    border: 2px solid #ff0000; 
+    border-radius: 10px; 
+    padding: 0; 
+}
+
+#launchButton:hover {
+    background-color: #1a1a1a; 
+    cursor: pointer; 
+}
+
+#launchButton img {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 5px; 
+}
+
+
+
